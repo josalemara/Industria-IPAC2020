@@ -44,82 +44,16 @@
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
 
-      <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
-        <a class="nav-link"  href="administrador.php">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
-          <span>Dashboard</span></a>
-      </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Interfaz
-      </div>
-
-      <!-- Nav Item - Usuarios Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-users"></i>
-          <span>Usuarios</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <!-- <h6 class="collapse-header">Custom Components:</h6> -->
-            <a class="collapse-item" id="">Administradores</a>
-            <a class="collapse-item" id="">Empleados</a>
-            <a class="collapse-item" id="registro"><i class="fas fa-plus"></i>  Nuevo usuario</a>
-            
-          </div>
-        </div>
-      </li>
-
-      <!-- Nav Item - Categorias Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-          <i class="fas fa-fw fa-list"></i>
-          <span>Graficos</span>
-        </a>
-        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-           
-            <a class="collapse-item"  id="GraficosDescriptivos" >Descriptivos</a>
-            <a class="collapse-item" id="GraficosProyectivos" >Proyectivos</a>
-            
-          </div>
-        </div>
-      </li>
-
-
-      <!-- Nav Item -  Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePresta" aria-expanded="true" aria-controls="collapsePresta">
-          <i class="fas fa-fw fa-box"></i>
-          <span>Subscripciones</span>
-        </a>
-        <div id="collapsePresta" class="collapse" aria-labelledby="headingPresta" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            
-            <a class="collapse-item" id="">Ver subscripciones</a>
-            <a class="collapse-item" id="">Pagos</a>
-            
-          </div>
-        </div>
-      </li>
-
-      
       
       <!-- Divider -->
       <hr class="sidebar-divider">
 
       
 
-      <!-- Sidebar Toggler (Sidebar) -->
-      <div class="text-center d-none d-md-inline">
-        <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+
 
     </ul>
     <!-- End of Sidebar -->
@@ -153,27 +87,6 @@
           <!-- Topbar Navbar -->
           <ul class="navbar-nav ml-auto">
 
-            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-            <li class="nav-item dropdown no-arrow d-sm-none">
-              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <i class="fas fa-search fa-fw"></i>
-              </a>
-              <!-- Dropdown - Messages -->
-              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                <form class="form-inline mr-auto w-100 navbar-search">
-                  <div class="input-group">
-                    <input type="text" class="form-control bg-light border-0 small" placeholder="Buscar" aria-label="Search" aria-describedby="basic-addon2">
-                    <div class="input-group-append">
-                      <button class="btn btn-primary" type="button">
-                        <i class="fas fa-search fa-sm"></i>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </li>
-
-
               <!-- import excel-  -->
             <li class="nav-item dropdown no-arrow mx-1">
               <a class="nav-link dropdown-toggle" id="importar" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -181,31 +94,7 @@
                 <!-- Counter - Alerts -->
                 
               </a>
-            </li>
-
-
-            
-              <!-- Dropdown - Alerts -->
-              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
-                <h6 class="dropdown-header">
-                  Notificaciones
-                </h6>
-               
-                <a class="dropdown-item d-flex align-items-center" href="#">
-                  <div class="mr-3">
-                    <div class="icon-circle bg-success">
-                      <i class="fas fa-donate text-white"></i>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="small text-gray-500">Junio 7, 2019</div>
-                    Computadora 5 reparada.
-                  </div>
-                </a>
-                
-                <a class="dropdown-item text-center small text-gray-500" href="#">Mostrar todas las notificaciones</a>
-              </div>
-              
+            </li>           
             </li>
 
           
